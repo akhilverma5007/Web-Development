@@ -102,5 +102,141 @@
     <main style="background-color:darkgoldenrod;">
         <span>Hello World</span>
     </main>
+
+    <hr/>
+    <br/>
+    
+    <main>
+    <!-- List in Html -->
+    <h3>Lists: are used to represent real lide list data.</h3>
+    <p>Lists are of two types: </p>
+    <h2>Unordered Lists</h2>
+    <ul>
+        <li>Mango</li>
+        <ul>
+            <!-- Sublist -->
+            <li>color: yellow</li>
+        </ul>
+        <li>Apple</li>
+        <li>Banana</li>
+    </ul>
+    </main>
+
+    <main>
+    <h2>Ordered Lists</h2>
+    <ol>
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Banana</li>
+    </ol>
+    </main>
+
+    <h2>Example of Sublist</h2>
+    <ol>
+        <li>Mango</li>
+        <ul><li>color: yellow</li></ul>
+        <li>Apple</li>
+        <ul><li>color: red</li></ul>
+        <li>Banana</li>
+        <ul><li>color: yellow</li></ul>
+    </ol>
+    <hr/>
+
+    <h3>Tables: are used to represent real life table data.</h3>
+    <p><pre>
+    tr: used to display table row.
+    td: used to display table data.
+    th: used to display table heading.
+    </pre></p>
+    <hr/
+    <br/>
+    
+    <table>
+        <thead>
+        <caption>Student data</caption>
+        <tr>
+            <th colspan="2">Information</th> <!--To merge cells-->
+            <!-- <th>Roll No</th> -->
+        </tr>
+    </thead>
+        <tbody>
+        <tr>
+            <td>Akhil</td>
+            <td>20</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <h3>thead and tbody in Tables</h3>
+    <p>thead: to wrap table head</p>
+    <p>tbody: to wrap table body</p>
+
+    <hr/>
+
+    <!-- HTML Forms -->
+    <h3>Forms in Html: are used to collect data from the user.<br/>
+        Eg- sign up/login/help requests/contact me
+    </h3>
+    
+    <h3>Action Attribute in Form: is used to define what action needs to be performed when a form is submitted.</h3>
+    
+       
+    <form action="/action.php"> <!-- backend file -->
+        <!-- Class : means group of students -->
+        <!-- Id: give id to a class, so changes will be applied to all members of class-->
+        <br><br>
+        <h3>Registeration Form</h3>
+        <input type="text" placeholder="Username"><br/><br>
+        <input type="password" placeholder="Password"><br/><br>
+        <input type="email" placeholder="Email"><br/><br>
+
+        <h5>Select Your Class</h5>
+        <label for="101">
+        <input type="radio" name="Class 10th" value="Class 10th" id="101">Class 10th
+        </label>
+        <label for="102">
+        <input type="radio" name="Class 11th" value="Class 11th" id="102">Class 11th
+        </label><br><br>
+
+        <h5>Select Your Subjects</h5>
+        <!-- Class & Id -->
+        <div id="id1" class="group1"></div>
+        <div id="id2" class="group1"></div>
+
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="102"> Math
+        </label><br><br>
+        <label for="english">
+            <input type="checkbox" value="english" name="subject" id="102"> English
+        </label><br><br>
+        <label for="phyics">
+            <input type="checkbox" value="phyics" name="subject" id="102"> Phyics
+        </label><br><br>
+        <label for="sanskrit">
+            <input type="checkbox" value="sanskrit" name="subject" id="102"> Sanskrit
+        </label><br><br>
+
+        <h5>Select Your City</h5>
+        <select name="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Gujrat">Gujrat</option>
+            <option value="Himachal">Himachal</option>
+        </select>
+        <br><br>
+
+        <h5>Leave us with your feedback.</h5>
+        <textarea type="textarea" name="feedback" id="101" placeholder="Please give your valueable feedback here" rows="5" cols="50"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit"><br><br>
+
+        <!-- iframe Tag: to show website inside website -->
+        <!-- Go to youtube video -> click share -> click embedd -> copy text -->
+        <iframe width="560" height="315" src="https://www.wikipedia.org/" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        <br><br><br>
+        <!-- Video Tag -->
+        <video src="myVid.mp4" width="560" height="315" controls loops autoplay>My Video</video>
+    </form>
 </body>
 </html>

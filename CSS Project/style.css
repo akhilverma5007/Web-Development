@@ -1,0 +1,53 @@
+
+button{
+    color:blueviolet;
+    background-color: black;
+}
+body{
+    background-color: burlywood;
+}
+
+/* Selectors */
+/* Universal Selector */
+*{
+    color:darkmagenta;
+}
+
+/* Element Selector */
+h2{
+    color:rgb(255, 122, 28);
+}
+p{
+    /* Properties */
+    color: #ff000f;
+    text-align: center; /* left/right/center/start/end*/
+    text-decoration: blue underline; /* underline/overline/line-through/color underline/none */
+    font-weight: 600; /* normal/bold/bolder/lighter/ 100-900 */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize; /* uppercase/lowercase/capitalise/none*/
+    
+}
+
+a{
+    text-decoration: none; /* To remove bydefault underline */
+}
+
+/* Id Selector */
+#headingOne{
+    color: aqua;
+}
+
+#headingTwo{
+    color: yellow;
+}
+
+.classOne{
+    color: blue;
+}
+
+#divMeasurements{
+    height: auto;
+    width: 200px;
+}

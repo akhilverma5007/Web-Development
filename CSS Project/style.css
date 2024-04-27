@@ -51,3 +51,103 @@ a{
     height: auto;
     width: 200px;
 }
+
+#newHeading{
+    height: auto;
+    width: 250px;
+    border-width: 2px;
+    border-style: solid; /* solid/dotted/dashed */
+    border-color: black;
+    /* border: 2px solid black; */
+    border-radius: 20px; /* to make the border round */
+}
+
+#divStyling{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%; /* to make circle */
+    text-align: center;
+    padding-left: 5%; /* left/right/top/bottom */
+    padding-right: 5%;
+    /* padding: 25%; */
+    /* padding: 11px 12px 4px 4px; */
+    margin-right: 10%;
+    /* margin: 25%; */
+    /* margin: 10px 20px 33px 44px; */
+}
+
+#displaydiv1{
+    /* display: inline-block; */
+    /* visibility: hidden; */
+    /* inline/block/inline-block/none */
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+#displaydiv2{
+    /* background-color: green; */
+    height: 100px;
+    width: 100px;
+    /* visibility: hidden; */
+    /* Note: When visibility is set to none, space for the 
+    element is reserved But for display set to none, 
+    no space is reserved or blocked for the element. */
+    /* display: none; */
+    margin: 25px;
+    padding: 25px;
+    background-color: rgba(0, 255, 0, 0.5);
+    display: inline-block;
+}
+
+#displaydiv3{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(98, 106, 106);
+    border-color: 2px solid green;
+    /* position: relative; */
+    display: inline-block;
+    background-image: url("animal.webp");
+    background-size: cover; /* cover/contain/auto*/
+    /* background-repeat: no-repeat; */
+}
+
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(98, 106, 106);
+    border-color: 2px solid green;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    display: inline-block;
+}
+
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(98, 106, 106);
+    border-color: 2px solid green;
+    display: inline-block;
+}
+
+#box4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(98, 106, 106);
+    border-color: 2px solid green;
+    display: inline-block;
+}

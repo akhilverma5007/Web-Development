@@ -151,3 +151,49 @@ a{
     border-color: 2px solid green;
     display: inline-block;
 }
+
+#responseProperty{
+    height: 400px;
+    width: 400px;
+    background-color: #ff000f;
+}
+
+/* @media (width : 600px) { */
+/* @media (min-width : 600px) { */
+@media (min-width : 200px) and (max-width: 300px) {
+    
+    #responseProperty{
+        background-color: blue;
+    }
+}
+
+
+#hoverFunctionality{
+    height: 400px;
+    width: 400px;
+    background-color: rebeccapurple;
+    border: 2px solid black;
+    
+}
+
+#hoverFunctionality:hover{
+    background-color: #ff000f;
+    color: white;
+}
+
+#hoverFunctionality:active{
+    background-color: pink;
+    transition-property: all;
+    transition-duration: 2s;
+    font-size: 50px;
+    transition-timing-function: steps(5);
+    transition-delay: 1s;
+    transform: rotate(45deg);
+    animation-name: colorAnimate;
+    animation-iteration-count: 1s;
+}
+
+@keyframes colorAnimate {
+    from{ background-color:aqua;}
+    to{background-color: blue;}
+}
